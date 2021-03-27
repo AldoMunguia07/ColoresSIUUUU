@@ -24,5 +24,26 @@ namespace ColoresSIUUUU
         {
             InitializeComponent();
         }
+
+        private void btnRojo_Click(object sender, RoutedEventArgs e)
+        {
+            Red red = new Red();
+            red.Show();
+            this.Close();
+        }
+
+        private void btnVerde_Click(object sender, RoutedEventArgs e)
+        {
+            verde green = new verde();
+            green.Show();
+            this.Close();
+        }
+
+        private void btnAzul_Click(object sender, RoutedEventArgs e)
+        {
+            Azul blue = new Azul();
+            blue.Show();
+            this.Close();
+        }
     }
 }
